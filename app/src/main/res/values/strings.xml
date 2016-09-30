@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PhotoManager</string>
+    <string name="action_settings">Settings</string>
+    <string name="file_path">Đường dẫn file :</string>
+    <string name="date_added">Ngày :</string>
+    <string name="file_size">Kích thước :</string>
+    <string name="dimension">Độ phân giải</string>
+    <string name="type">Loại :</string>
+    <string name="dialog_delete_title">Xóa ảnh</string>
+    <string name="dialog_delete">Bạn có muốn xóa ảnh này không ?</string>
+</resources>

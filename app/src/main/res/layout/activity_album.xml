@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".activity.CategoryActivity"
+    android:layout_gravity="center"
+    android:background="#AD462222">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/charge_tool_bar"
+        android:background="#ad3e2828"
+        android:elevation="4dp"
+        app:navigationIcon="@mipmap/ic_launcher"
+        ></android.support.v7.widget.Toolbar>
+    <GridView
+        android:id="@+id/list_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:columnWidth="135dp"
+        android:horizontalSpacing="0dip"
+        android:numColumns="2"
+        android:stretchMode="spacingWidthUniform"
+        android:verticalSpacing="10dip" />
+
+</LinearLayout>
